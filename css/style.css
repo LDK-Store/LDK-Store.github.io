@@ -1,0 +1,573 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*----------HEADER----------*/
+header{
+    width:100%;
+    height: 49.8567rem;
+}
+.wrap{
+    background-color:rgb(25, 66, 97);
+    width:100%;
+    height:2.8125rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;   
+}
+
+.widget{
+    width:20%;   
+}
+.widget p{
+    display:inline-block;
+    line-height: 1em;
+}
+.fecha{
+    text-align:center;
+    font-size: 1em;
+    color:#fff;
+    padding:13px;
+    width:100%;  
+}
+
+
+.header{
+    width:100%;
+    height:6.25rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.main_logo{
+   
+    height:3.125rem;
+    margin:0.9375rem;
+    width:20%;
+}
+.text_logo{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:2.8125rem;
+}
+.text_logo > span{
+    color: orange;  
+    
+}
+.text_slogan{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    
+}
+
+.menu{
+    width:50%;
+    height:2.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    
+}
+.menu ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:flex;
+}
+
+.menu li{
+    margin:2rem;
+    text-decoration: none;
+    padding:0.3125rem;
+    transition:300ms;
+    
+}
+.menu li:hover{
+    background-color:rgb(219, 236, 250);
+    border-radius:6px;
+}
+.menu a{
+    text-decoration: none;
+    font-size:0.9375rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#444;;
+}
+
+.box_bg{
+    
+    height:650px;
+    width:100%;
+    background-image:url(/img/header_bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+.box_bg .title{
+    color:#fff;
+    font-size:4.0625rem;
+    letter-spacing: 0.125rem;
+    border:0.0625rem solid #fff;
+    margin:0 15px;
+}
+
+.box_bg .title > span{
+    color:orange;
+}
+.box_bg .sub_title{
+    color:#fff;
+    font-family:cursive;
+}
+.btn_info{
+    border:0.0625rem solid #fff;
+    margin:1.5625rem auto;
+    width:7.5rem;
+    height:2.8125rem;
+    line-height: 2.6875rem;
+}
+
+.btn_info > a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+}
+
+/*-----ABOUT US--------*/
+
+.aboutUs{
+    
+    background-color: #b6bc87;
+    width:100%;
+    height:450px;
+    margin:30px 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+
+}
+.quienes_somos{
+    text-align:center;
+    font-family:helvetica,sans-serif;
+    font-size:40px;
+    color:#444;
+}
+.foto{
+    
+    width:40%;
+    height:400px;
+    margin:0px 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+.foto img{
+    
+    border-radius:10px;
+    box-shadow:1px 1px 10px #444;
+}
+
+.parrafo{
+   
+    width:40%;
+    height:400px;
+    margin:0px 10px;
+    padding:10px;
+}
+.about_title{
+    text-align:center;
+    margin:10px;
+    letter-spacing:2px;
+    color:#444;
+}
+
+
+/*-----GALERIA------*/
+.galerias{
+    box-shadow: 1px 1px 8px #ccc;;
+    width:90%;
+    height:700px;
+    margin:30px auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between; 
+  }
+ 
+  .gal_card{
+  
+    width:205px;
+    height:205px;
+    margin:10px;
+    transition:300ms;
+  
+  }
+ 
+  .gal_card > img:hover{
+   opacity:0.7
+  }
+ 
+  .gal_card > h3{
+ text-align: center;
+ margin:5px;
+ }
+ 
+ .gal_card > p{
+   text-align:left;
+   margin:3px;
+   padding:3px;
+ }
+/*----------BANNER----------*/
+
+.banner{
+   box-shadow: 1px 1px 15px #ccc;;
+    margin:20px auto;
+    width:90%;
+    height:400px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.content_banner > img{
+    width:250px;
+    height:350px;
+    margin: 0 10px;
+}
+.content_banner2{
+    width:90%px;
+    height:50%;
+    margin:10px 5px;
+}
+.title_banner{
+    text-align: center;
+    margin:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.paragraph_banner{
+font-size:16px;
+text-align: justify;
+padding:10px; 
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.content_banner2 > a{
+    display:block;
+    margin:auto;
+}
+
+/* -------CARDS------ */
+
+.cards{
+   
+    width:100%;
+    height:550px;
+    display:flex;
+    justify-content:center;
+    margin:25px 0px;
+    padding:8px;
+    background: #636363;  
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);  
+    background: linear-gradient(to right, #a2ab58, #636363);   
+}
+.card{
+    border:1px solid #444;
+    margin:25px 20px;
+    width:310px;
+    border-radius: 5px;
+    box-shadow:1px 1px 10px #ccc;
+    animation:slideInLeft;
+    animation-duration:5s;
+}
+.card > img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+.card .card_title1{
+    text-align: center;
+    color:#fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.card .card_title2{
+    text-align: center;
+    color:#fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+/* ---FORMULARIO DE CONTACTO---- */
+
+
+.contacto{
+    width:100%;
+    height:600px;
+    margin:30px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .mapa{
+    padding:15px;
+  }
+  
+  .direccion{
+    width:40%;
+    height:60%;
+    margin:15px;
+    padding:10px;
+    
+  }
+  
+  .direccion > h2{
+    color:#444;
+    text-align: center;
+    margin:10px;
+   
+  }
+  
+  .direccion > p{
+    color:#444;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .formulario{
+    
+ 
+    width:100%;
+    height:500px;
+    margin:30px auto;
+  
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  .formulario .titulo_formulario{
+    margin:25px;
+  }
+  
+  .formulario > input[type="text"],
+  [type="tel"],[type="email"]{
+  
+    width:40%;
+    margin:10px;
+  
+  }
+  .formulario > input[type="textarea"]{
+    width:40%;
+    height:100px;
+    margin:10px;
+  }
+  
+  .formulario .btn{
+    width:210px;
+   height:35px;
+   margin:15px;
+   background-color:rgb(13, 81, 209);
+   border-radius: 8px;
+   color:#fff;
+  }
+  
+
+
+
+
+
+/* ---FOOTER---- */
+
+footer{
+    width:100%;
+    height:60px;
+    background-color: #444;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer{
+    color:#fff;
+    font-size:17px;
+}
+
+
+@media screen and (max-width:1490px){
+    .galerias{
+        width:100%;
+    }
+    .gal_card{
+     width:300px;
+     height:300px;
+     margin:50px;
+   }
+   .gal_card > img{
+    width:250px;
+    height:250px;
+ }
+@media screen and (max-width:1360px){
+   .galerias{
+       width:100%;
+   }
+   .gal_card{
+    width:255px;
+    height:255px;
+    margin:40px;
+  }
+}
+@media screen and (min-width: 992px){
+
+.widget {
+width:25%; 
+}
+
+.menu{
+    width:60%;
+}
+.galerias{
+    width:100%;
+    height:800px;
+    flex-direction:row;
+    
+}
+.galerias .gal_card{
+    width:150px;
+    height:150px;
+    
+}
+.gal_card > img{
+    width:150px;
+    height:150px;
+}
+
+}
+
+@media screen and (max-width:768px){
+    .widget {
+        width:30%; 
+        }
+
+    .menu{
+            width:75%;
+        }
+
+        .box_bg .title{
+            color:#fff;
+            font-size:45px;;   
+}
+
+.galerias .gal_card{
+    width: 115px;
+    height:115px;
+    
+}
+.gal_card > img{
+    width:100%;
+    height:100;
+}
+}
+
+@media screen and (max-width:438px){
+    .widget {
+        width:50%; 
+        }
+        .menu{
+            width:100%;
+        }
+    .menu li{
+    margin:13px;
+        }
+        .main_logo{
+            display:none;
+        }
+
+        .box_bg .title{
+            font-size:25px;   
+        }
+
+        .sub_title{
+            font-size:16px;
+       }    
+
+      .banner{
+        display:flex;
+        flex-direction:column;  
+      }
+      .banner{
+          width: 350px;
+          height: 200px;
+      }
+      .content_banner > img{
+        width:200px;
+        height:200px;
+        margin: 0 10px;
+      }
+      .title_banner, .paragraph_banner{
+         display:none;
+      }
+
+      .cards{
+        height:220px;
+      }
+       .aboutUs{
+           height:370px;
+       }
+      .aboutUs .foto{
+         display:none;
+      }
+      
+      .aboutUs .parrafo{
+          width:90%;
+      }
+      .aboutUs .about_title{
+        font-size: 1.1875rem;
+        margin:25px 0;
+    }
+.quienes_somos{
+    font-size:25px;
+}
+.galerias .gal_card{
+    width: 100px;
+    height:100px;
+    
+}
+
+.gal_card > img{
+    width:100%;
+    height:100;
+}
+.gal_card > h3{
+    font-size:13px;
+}
+.gal_card > p{
+    display:none;
+}
+     footer .footer{
+          font-size:15px;
+      }
+
+     .contacto{
+         height:300px;
+         
+     } 
+     .mapa{
+       width:100%;
+     }
+     .direccion{
+         display:none;
+     }
+
+}
+        
+}
